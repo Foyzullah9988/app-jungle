@@ -15,7 +15,7 @@ const Home = () => {
                 <h2 className='text-xl font-bold'>Trending Apps</h2>
                 <p>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className='m-4'>
+            <div className='m-4 grid grid-cols-1 sm:grid-cols-4 gap-4'>
                 {
                     homeData.map(app => <AppCard key={app.id} app={app} />)
                 }

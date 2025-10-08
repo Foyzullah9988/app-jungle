@@ -3,32 +3,33 @@
         "id": 1,
         "image": "https://source.unsplash.com/400x400/?tech,app",
         "title": "FlowTrack",
+        "subtitle": "Organize your goals and boost your productivity effortlessly.",
         "companyName": "ZenSoft Inc.",
-        "description": "A next-gen tech app offering advanced features and modern design for better user experience.",
-        "size": 42,
-        "reviews": 18489,
-        "ratingAvg": 4.7,
-        "downloads": "8.8M",
+        "description": "FlowTrack is your all-in-one productivity companion, designed to simplify the way you plan and execute tasks. With an intuitive interface, AI-driven reminders, and seamless cloud synchronization, you can easily manage personal goals, team projects, and everyday routines. Stay focused using built-in timers and analytics that help track progress over time. Whether you’re a student or professional, FlowTrack ensures your workflow stays smooth, organized, and efficient across all your devices.",
+        "size": 62,
+        "reviews": 15340,
+        "ratingAvg": 4.8,
+        "downloads": "2.3M",
         "ratings": [
             {
                 "name": "1 star",
-                "count": 436
+                "count": 280
             },
             {
                 "name": "2 star",
-                "count": 643
+                "count": 410
             },
             {
                 "name": "3 star",
-                "count": 762
+                "count": 940
             },
             {
                 "name": "4 star",
-                "count": 3299
+                "count": 2800
             },
             {
                 "name": "5 star",
-                "count": 11401
+                "count": 8910
             }
         ]
     },
@@ -36,474 +37,13 @@
         "id": 2,
         "image": "https://source.unsplash.com/400x400/?design,app",
         "title": "Artify",
+        "subtitle": "Transform your photos into digital masterpieces instantly.",
         "companyName": "DreamCraft",
-        "description": "A next-gen design app offering advanced features and modern design for better user experience.",
-        "size": 89,
-        "reviews": 8568,
-        "ratingAvg": 4.9,
-        "downloads": "893K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 199
-            },
-            {
-                "name": "2 star",
-                "count": 864
-            },
-            {
-                "name": "3 star",
-                "count": 1589
-            },
-            {
-                "name": "4 star",
-                "count": 1595
-            },
-            {
-                "name": "5 star",
-                "count": 10599
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "image": "https://source.unsplash.com/400x400/?fitness,app",
-        "title": "FitPulse",
-        "companyName": "CoreWellness",
-        "description": "A next-gen fitness app offering advanced features and modern design for better user experience.",
-        "size": 59,
-        "reviews": 10516,
-        "ratingAvg": 4.7,
-        "downloads": "868K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 151
-            },
-            {
-                "name": "2 star",
-                "count": 881
-            },
-            {
-                "name": "3 star",
-                "count": 751
-            },
-            {
-                "name": "4 star",
-                "count": 2239
-            },
-            {
-                "name": "5 star",
-                "count": 11963
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "image": "https://source.unsplash.com/400x400/?finance,app",
-        "title": "MoneyMap",
-        "companyName": "SmartLedger",
-        "description": "A next-gen finance app offering advanced features and modern design for better user experience.",
-        "size": 81,
-        "reviews": 18396,
-        "ratingAvg": 4.1,
-        "downloads": "117K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 683
-            },
-            {
-                "name": "2 star",
-                "count": 708
-            },
-            {
-                "name": "3 star",
-                "count": 802
-            },
-            {
-                "name": "4 star",
-                "count": 2563
-            },
-            {
-                "name": "5 star",
-                "count": 11651
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "image": "https://source.unsplash.com/400x400/?education,app",
-        "title": "Learnio",
-        "companyName": "EduNova",
-        "description": "A next-gen education app offering advanced features and modern design for better user experience.",
-        "size": 65,
-        "reviews": 10124,
-        "ratingAvg": 4.1,
-        "downloads": "713K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 493
-            },
-            {
-                "name": "2 star",
-                "count": 315
-            },
-            {
-                "name": "3 star",
-                "count": 585
-            },
-            {
-                "name": "4 star",
-                "count": 3193
-            },
-            {
-                "name": "5 star",
-                "count": 4981
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "image": "https://source.unsplash.com/400x400/?music,app",
-        "title": "TuneNest",
-        "companyName": "WaveLabs",
-        "description": "A next-gen music app offering advanced features and modern design for better user experience.",
-        "size": 59,
-        "reviews": 10413,
-        "ratingAvg": 4.5,
-        "downloads": "777K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 713
-            },
-            {
-                "name": "2 star",
-                "count": 464
-            },
-            {
-                "name": "3 star",
-                "count": 510
-            },
-            {
-                "name": "4 star",
-                "count": 1560
-            },
-            {
-                "name": "5 star",
-                "count": 7486
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "image": "https://source.unsplash.com/400x400/?shopping,app",
-        "title": "ShopX",
-        "companyName": "Trendify",
-        "description": "A next-gen shopping app offering advanced features and modern design for better user experience.",
-        "size": 46,
-        "reviews": 9520,
-        "ratingAvg": 4.5,
-        "downloads": "726K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 537
-            },
-            {
-                "name": "2 star",
-                "count": 238
-            },
-            {
-                "name": "3 star",
-                "count": 1629
-            },
-            {
-                "name": "4 star",
-                "count": 2106
-            },
-            {
-                "name": "5 star",
-                "count": 6888
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "image": "https://source.unsplash.com/400x400/?weather,app",
-        "title": "SkyCast",
-        "companyName": "NimbusTech",
-        "description": "A next-gen weather app offering advanced features and modern design for better user experience.",
-        "size": 44,
-        "reviews": 24972,
-        "ratingAvg": 4.8,
-        "downloads": "3.2M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 612
-            },
-            {
-                "name": "2 star",
-                "count": 203
-            },
-            {
-                "name": "3 star",
-                "count": 1043
-            },
-            {
-                "name": "4 star",
-                "count": 2108
-            },
-            {
-                "name": "5 star",
-                "count": 7071
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "image": "https://source.unsplash.com/400x400/?travel,app",
-        "title": "TripTrek",
-        "companyName": "ExploreMore",
-        "description": "A next-gen travel app offering advanced features and modern design for better user experience.",
-        "size": 88,
-        "reviews": 13518,
-        "ratingAvg": 4.4,
-        "downloads": "4.7M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 327
-            },
-            {
-                "name": "2 star",
-                "count": 305
-            },
-            {
-                "name": "3 star",
-                "count": 1669
-            },
-            {
-                "name": "4 star",
-                "count": 2476
-            },
-            {
-                "name": "5 star",
-                "count": 6216
-            }
-        ]
-    },
-    {
-        "id": 10,
-        "image": "https://source.unsplash.com/400x400/?news,app",
-        "title": "InfoPulse",
-        "companyName": "GlobalFeed",
-        "description": "A next-gen news app offering advanced features and modern design for better user experience.",
-        "size": 72,
-        "reviews": 24928,
-        "ratingAvg": 4.5,
-        "downloads": "627K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 607
-            },
-            {
-                "name": "2 star",
-                "count": 336
-            },
-            {
-                "name": "3 star",
-                "count": 1365
-            },
-            {
-                "name": "4 star",
-                "count": 2445
-            },
-            {
-                "name": "5 star",
-                "count": 5929
-            }
-        ]
-    },
-    {
-        "id": 11,
-        "image": "https://source.unsplash.com/400x400/?cooking,app",
-        "title": "CookMate",
-        "companyName": "KitchenX",
-        "description": "A next-gen cooking app offering advanced features and modern design for better user experience.",
-        "size": 55,
-        "reviews": 20399,
-        "ratingAvg": 4.9,
-        "downloads": "7.6M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 386
-            },
-            {
-                "name": "2 star",
-                "count": 250
-            },
-            {
-                "name": "3 star",
-                "count": 1377
-            },
-            {
-                "name": "4 star",
-                "count": 3768
-            },
-            {
-                "name": "5 star",
-                "count": 6651
-            }
-        ]
-    },
-    {
-        "id": 12,
-        "image": "https://source.unsplash.com/400x400/?notes,app",
-        "title": "NoteWise",
-        "companyName": "ThinkAhead",
-        "description": "A next-gen notes app offering advanced features and modern design for better user experience.",
-        "size": 84,
-        "reviews": 24754,
-        "ratingAvg": 4.4,
-        "downloads": "270K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 265
-            },
-            {
-                "name": "2 star",
-                "count": 827
-            },
-            {
-                "name": "3 star",
-                "count": 1479
-            },
-            {
-                "name": "4 star",
-                "count": 1904
-            },
-            {
-                "name": "5 star",
-                "count": 6862
-            }
-        ]
-    },
-    {
-        "id": 13,
-        "image": "https://source.unsplash.com/400x400/?gaming,app",
-        "title": "GameSphere",
-        "companyName": "GameCore",
-        "description": "A next-gen gaming app offering advanced features and modern design for better user experience.",
-        "size": 50,
-        "reviews": 13005,
-        "ratingAvg": 4.8,
-        "downloads": "6.7M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 538
-            },
-            {
-                "name": "2 star",
-                "count": 926
-            },
-            {
-                "name": "3 star",
-                "count": 1466
-            },
-            {
-                "name": "4 star",
-                "count": 3437
-            },
-            {
-                "name": "5 star",
-                "count": 11518
-            }
-        ]
-    },
-    {
-        "id": 14,
-        "image": "https://source.unsplash.com/400x400/?health,app",
-        "title": "MediCare",
-        "companyName": "MediLink",
-        "description": "A next-gen health app offering advanced features and modern design for better user experience.",
-        "size": 76,
-        "reviews": 13502,
-        "ratingAvg": 4.1,
-        "downloads": "5.6M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 201
-            },
-            {
-                "name": "2 star",
-                "count": 356
-            },
-            {
-                "name": "3 star",
-                "count": 1258
-            },
-            {
-                "name": "4 star",
-                "count": 1638
-            },
-            {
-                "name": "5 star",
-                "count": 5676
-            }
-        ]
-    },
-    {
-        "id": 15,
-        "image": "https://source.unsplash.com/400x400/?eco,app",
-        "title": "EcoMeter",
-        "companyName": "EcoSoft",
-        "description": "A next-gen eco app offering advanced features and modern design for better user experience.",
-        "size": 60,
-        "reviews": 15212,
-        "ratingAvg": 4.5,
-        "downloads": "288K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 298
-            },
-            {
-                "name": "2 star",
-                "count": 507
-            },
-            {
-                "name": "3 star",
-                "count": 1304
-            },
-            {
-                "name": "4 star",
-                "count": 2942
-            },
-            {
-                "name": "5 star",
-                "count": 5745
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "image": "https://source.unsplash.com/400x400/?books,app",
-        "title": "Readify",
-        "companyName": "Readerly",
-        "description": "A next-gen books app offering advanced features and modern design for better user experience.",
-        "size": 67,
-        "reviews": 22757,
+        "description": "Artify turns ordinary images into stunning digital artwork using advanced AI filters and editing tools. Choose from hundreds of artistic styles inspired by famous painters and modern aesthetics. Whether you’re enhancing portraits, landscapes, or product photos, Artify makes editing quick and professional. With one-tap adjustments, color grading, and background removal, your creativity has no limits. Share your beautiful creations directly to social media and impress your followers effortlessly.",
+        "size": 57,
+        "reviews": 12000,
         "ratingAvg": 4.6,
-        "downloads": "979K",
+        "downloads": "1.4M",
         "ratings": [
             {
                 "name": "1 star",
@@ -511,316 +51,291 @@
             },
             {
                 "name": "2 star",
-                "count": 818
+                "count": 490
             },
             {
                 "name": "3 star",
-                "count": 1726
+                "count": 870
             },
             {
                 "name": "4 star",
-                "count": 3247
+                "count": 2600
             },
             {
                 "name": "5 star",
-                "count": 6082
+                "count": 6740
             }
         ]
     },
     {
-        "id": 17,
-        "image": "https://source.unsplash.com/400x400/?mental,app",
-        "title": "MindEase",
-        "companyName": "CalmSphere",
-        "description": "A next-gen mental app offering advanced features and modern design for better user experience.",
-        "size": 81,
-        "reviews": 14538,
-        "ratingAvg": 4.6,
-        "downloads": "864K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 770
-            },
-            {
-                "name": "2 star",
-                "count": 824
-            },
-            {
-                "name": "3 star",
-                "count": 909
-            },
-            {
-                "name": "4 star",
-                "count": 3792
-            },
-            {
-                "name": "5 star",
-                "count": 4519
-            }
-        ]
-    },
-    {
-        "id": 18,
-        "image": "https://source.unsplash.com/400x400/?productivity,app",
-        "title": "TaskZen",
-        "companyName": "TaskWorks",
-        "description": "A next-gen productivity app offering advanced features and modern design for better user experience.",
-        "size": 47,
-        "reviews": 5704,
-        "ratingAvg": 4.4,
-        "downloads": "9.2M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 796
-            },
-            {
-                "name": "2 star",
-                "count": 862
-            },
-            {
-                "name": "3 star",
-                "count": 1058
-            },
-            {
-                "name": "4 star",
-                "count": 2444
-            },
-            {
-                "name": "5 star",
-                "count": 11099
-            }
-        ]
-    },
-    {
-        "id": 19,
-        "image": "https://source.unsplash.com/400x400/?language,app",
-        "title": "LangBoost",
-        "companyName": "LinguaTech",
-        "description": "A next-gen language app offering advanced features and modern design for better user experience.",
-        "size": 83,
-        "reviews": 18824,
-        "ratingAvg": 4.9,
-        "downloads": "438K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 108
-            },
-            {
-                "name": "2 star",
-                "count": 989
-            },
-            {
-                "name": "3 star",
-                "count": 1889
-            },
-            {
-                "name": "4 star",
-                "count": 2666
-            },
-            {
-                "name": "5 star",
-                "count": 4213
-            }
-        ]
-    },
-    {
-        "id": 20,
-        "image": "https://source.unsplash.com/400x400/?driving,app",
-        "title": "DriveSmart",
-        "companyName": "DriveLogic",
-        "description": "A next-gen driving app offering advanced features and modern design for better user experience.",
-        "size": 48,
-        "reviews": 7268,
-        "ratingAvg": 4.2,
-        "downloads": "8.6M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 457
-            },
-            {
-                "name": "2 star",
-                "count": 618
-            },
-            {
-                "name": "3 star",
-                "count": 1818
-            },
-            {
-                "name": "4 star",
-                "count": 1838
-            },
-            {
-                "name": "5 star",
-                "count": 7161
-            }
-        ]
-    },
-    {
-        "id": 21,
-        "image": "https://source.unsplash.com/400x400/?home,app",
-        "title": "HomeHive",
-        "companyName": "HiveLabs",
-        "description": "A next-gen home app offering advanced features and modern design for better user experience.",
-        "size": 83,
-        "reviews": 7645,
-        "ratingAvg": 4.5,
-        "downloads": "5.5M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 337
-            },
-            {
-                "name": "2 star",
-                "count": 808
-            },
-            {
-                "name": "3 star",
-                "count": 985
-            },
-            {
-                "name": "4 star",
-                "count": 2328
-            },
-            {
-                "name": "5 star",
-                "count": 11687
-            }
-        ]
-    },
-    {
-        "id": 22,
-        "image": "https://source.unsplash.com/400x400/?photo,app",
-        "title": "PhotoFusion",
-        "companyName": "PixelForge",
-        "description": "A next-gen photo app offering advanced features and modern design for better user experience.",
-        "size": 76,
-        "reviews": 22465,
-        "ratingAvg": 4.4,
-        "downloads": "106K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 308
-            },
-            {
-                "name": "2 star",
-                "count": 348
-            },
-            {
-                "name": "3 star",
-                "count": 941
-            },
-            {
-                "name": "4 star",
-                "count": 2138
-            },
-            {
-                "name": "5 star",
-                "count": 6995
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "image": "https://source.unsplash.com/400x400/?pets,app",
-        "title": "PetPal",
-        "companyName": "PawNation",
-        "description": "A next-gen pets app offering advanced features and modern design for better user experience.",
-        "size": 88,
-        "reviews": 9728,
+        "id": 3,
+        "image": "https://source.unsplash.com/400x400/?fitness,app",
+        "title": "FitPulse",
+        "subtitle": "Your personal AI-powered fitness coach and motivator.",
+        "companyName": "CoreWellness",
+        "description": "FitPulse brings you a smarter way to stay healthy by combining AI-powered workout tracking and nutrition planning. Get personalized exercise routines, daily motivation, and detailed progress analytics. Sync your data with smartwatches to monitor steps, heart rate, and calories burned in real time. Whether you’re at the gym or home, FitPulse helps you stay committed to your fitness goals with expert guidance, tailored challenges, and social leaderboards for extra motivation.",
+        "size": 64,
+        "reviews": 18700,
         "ratingAvg": 4.7,
-        "downloads": "970K",
+        "downloads": "5.1M",
         "ratings": [
             {
                 "name": "1 star",
-                "count": 183
+                "count": 330
             },
             {
                 "name": "2 star",
-                "count": 511
+                "count": 520
             },
             {
                 "name": "3 star",
-                "count": 1524
+                "count": 1000
             },
             {
                 "name": "4 star",
-                "count": 2638
+                "count": 3800
             },
             {
                 "name": "5 star",
-                "count": 4971
+                "count": 13050
             }
         ]
     },
     {
-        "id": 24,
-        "image": "https://source.unsplash.com/400x400/?events,app",
-        "title": "Eventia",
-        "companyName": "Eventify",
-        "description": "A next-gen events app offering advanced features and modern design for better user experience.",
-        "size": 87,
-        "reviews": 10851,
-        "ratingAvg": 4.9,
-        "downloads": "100K",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 158
-            },
-            {
-                "name": "2 star",
-                "count": 985
-            },
-            {
-                "name": "3 star",
-                "count": 1300
-            },
-            {
-                "name": "4 star",
-                "count": 2218
-            },
-            {
-                "name": "5 star",
-                "count": 7745
-            }
-        ]
-    },
-    {
-        "id": 25,
-        "image": "https://source.unsplash.com/400x400/?scanner,app",
-        "title": "DocuScan",
-        "companyName": "ScanPro",
-        "description": "A next-gen scanner app offering advanced features and modern design for better user experience.",
-        "size": 90,
-        "reviews": 14368,
+        "id": 4,
+        "image": "https://source.unsplash.com/400x400/?finance,app",
+        "title": "MoneyMap",
+        "subtitle": "Visualize your finances and plan smarter budgets.",
+        "companyName": "SmartLedger",
+        "description": "MoneyMap helps you understand your financial habits by providing visual insights into your spending, income, and savings. Link your bank accounts securely and watch your transactions organize automatically into categories. Set monthly goals, create custom budgets, and receive smart alerts to prevent overspending. Detailed reports and charts make it easy to track your progress. With MoneyMap, managing your finances becomes not just efficient but truly empowering and stress-free.",
+        "size": 51,
+        "reviews": 11200,
         "ratingAvg": 4.5,
-        "downloads": "560K",
+        "downloads": "980K",
         "ratings": [
             {
                 "name": "1 star",
-                "count": 565
+                "count": 280
             },
             {
                 "name": "2 star",
-                "count": 654
+                "count": 450
             },
             {
                 "name": "3 star",
-                "count": 1351
+                "count": 940
             },
             {
                 "name": "4 star",
-                "count": 3986
+                "count": 2500
             },
             {
                 "name": "5 star",
-                "count": 10395
+                "count": 5030
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://source.unsplash.com/400x400/?education,app",
+        "title": "Learnio",
+        "subtitle": "Master new skills with personalized online lessons.",
+        "companyName": "EduNova",
+        "description": "Learnio is a modern learning app designed to make studying fun, efficient, and engaging. It offers personalized learning paths, video lessons, quizzes, and flashcards across a variety of subjects. Whether you’re learning coding, design, business, or languages, Learnio adapts to your pace and style. Interactive progress tracking keeps you motivated while reminders help you stay consistent. Access thousands of expert-led courses anytime and turn learning into an exciting daily habit.",
+        "size": 67,
+        "reviews": 15900,
+        "ratingAvg": 4.9,
+        "downloads": "3.7M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 230
+            },
+            {
+                "name": "2 star",
+                "count": 310
+            },
+            {
+                "name": "3 star",
+                "count": 800
+            },
+            {
+                "name": "4 star",
+                "count": 2900
+            },
+            {
+                "name": "5 star",
+                "count": 9660
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://source.unsplash.com/400x400/?music,app",
+        "title": "TuneNest",
+        "subtitle": "Discover and stream music that fits your mood.",
+        "companyName": "WaveLabs",
+        "description": "TuneNest is an intelligent music app that adapts to your emotions and environment. It curates playlists automatically based on your activities, such as working, studying, or relaxing. The offline mode lets you enjoy your favorite songs anywhere. With a clean interface, equalizer customization, and premium audio quality, TuneNest delivers an immersive music experience. Connect with friends, share playlists, and explore trending tracks from artists around the world effortlessly.",
+        "size": 59,
+        "reviews": 10800,
+        "ratingAvg": 4.4,
+        "downloads": "2.6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 470
+            },
+            {
+                "name": "3 star",
+                "count": 910
+            },
+            {
+                "name": "4 star",
+                "count": 2600
+            },
+            {
+                "name": "5 star",
+                "count": 6520
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "https://source.unsplash.com/400x400/?shopping,app",
+        "title": "ShopX",
+        "subtitle": "Find deals, compare prices, and shop smarter.",
+        "companyName": "Trendify",
+        "description": "ShopX brings all your favorite stores into one convenient place. Discover the best deals, compare prices across hundreds of retailers, and get exclusive discounts tailored to your preferences. With smart search and personalized recommendations, you’ll never miss a sale. Save your favorite products, track shipments, and manage your orders effortlessly. Whether you’re buying fashion, gadgets, or groceries, ShopX ensures a faster, safer, and more enjoyable shopping experience every time.",
+        "size": 52,
+        "reviews": 8700,
+        "ratingAvg": 4.3,
+        "downloads": "980K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 340
+            },
+            {
+                "name": "2 star",
+                "count": 430
+            },
+            {
+                "name": "3 star",
+                "count": 920
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 4510
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "https://source.unsplash.com/400x400/?weather,app",
+        "title": "SkyCast",
+        "subtitle": "Stay one step ahead of the weather every day.",
+        "companyName": "NimbusTech",
+        "description": "SkyCast is your smart weather companion that delivers real-time updates, radar maps, and future forecasts. With accurate data powered by global weather networks, it alerts you instantly about temperature changes, storms, or rain. The app includes widgets, hourly forecasts, and sunrise/sunset info. Customize your notifications to receive alerts for your specific location. Whether you’re planning a trip or just stepping out, SkyCast helps you stay prepared for any condition.",
+        "size": 46,
+        "reviews": 9800,
+        "ratingAvg": 4.6,
+        "downloads": "1.6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 250
+            },
+            {
+                "name": "2 star",
+                "count": 430
+            },
+            {
+                "name": "3 star",
+                "count": 800
+            },
+            {
+                "name": "4 star",
+                "count": 2600
+            },
+            {
+                "name": "5 star",
+                "count": 5720
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": "https://source.unsplash.com/400x400/?travel,app",
+        "title": "TripTrek",
+        "subtitle": "Plan smarter journeys and unforgettable adventures.",
+        "companyName": "ExploreMore",
+        "description": "TripTrek simplifies travel planning with smart itinerary suggestions, flight tracking, and expense management. Discover destinations, book hotels, and find activities tailored to your interests. The app syncs your travel details, so you never miss flights or bookings. Offline maps and safety tips make traveling stress-free. Share trips with friends, track your adventures, and make every journey memorable. Whether it’s a weekend getaway or an international trip, TripTrek is your trusted companion.",
+        "size": 68,
+        "reviews": 17400,
+        "ratingAvg": 4.8,
+        "downloads": "4.4M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 320
+            },
+            {
+                "name": "2 star",
+                "count": 440
+            },
+            {
+                "name": "3 star",
+                "count": 960
+            },
+            {
+                "name": "4 star",
+                "count": 3600
+            },
+            {
+                "name": "5 star",
+                "count": 10080
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": "https://source.unsplash.com/400x400/?news,app",
+        "title": "InfoPulse",
+        "subtitle": "Smart news for smarter minds, all in one feed.",
+        "companyName": "GlobalFeed",
+        "description": "InfoPulse curates top headlines from trusted global and local news sources. Enjoy personalized feeds based on your reading habits and preferred categories. The app filters out fake news using AI verification tools and delivers concise summaries for quick reading. Stay updated on technology, business, politics, and entertainment with real-time notifications. Offline reading mode ensures you never miss important updates, even without an internet connection. InfoPulse keeps your world in focus.",
+        "size": 50,
+        "reviews": 7300,
+        "ratingAvg": 4.2,
+        "downloads": "950K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 310
+            },
+            {
+                "name": "2 star",
+                "count": 420
+            },
+            {
+                "name": "3 star",
+                "count": 850
+            },
+            {
+                "name": "4 star",
+                "count": 2100
+            },
+            {
+                "name": "5 star",
+                "count": 3620
             }
         ]
     }

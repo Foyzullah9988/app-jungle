@@ -1,23 +1,24 @@
 import React from 'react';
 
 const AppCard = ({ app }) => {
-    const {image,downloads,ratingAvg}=app;
+    const {id,image,title,downloads,ratingAvg}=app;
     return (
-        <div className="card bg-base-100 w-96 shadow-sm hover:scale-105 transition ease-in-out">
+        <Link to={`/apps/${id}`} className="card w-[340px] p-4 bg-amber-100 shadow-sm hover:scale-105 transition ease-in-out">
             <figure className='h-48 overflow-hidden'>
                 <img className='w-full object-cover'
                     src={image}
-                    alt={app} />
+                    alt={`${title} app picture`} />
             </figure>
-            <div className="card-body">
+            <h3>{title}</h3>
+            <div className="">
                 
-                <div className="flex justify-between items-center">
+                <div className="flex py-2 justify-between items-center">
                     <h2>{downloads}</h2>
                 
                     <h2>{ratingAvg}</h2>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

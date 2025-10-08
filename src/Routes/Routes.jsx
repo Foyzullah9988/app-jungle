@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
                 element: <Installation />
             },
             {
-                path:'/appDetails',
+                path:'/apps/:id',
                 element:<AppDetails/>
             }
         ]
