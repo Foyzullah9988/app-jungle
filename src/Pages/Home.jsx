@@ -1,17 +1,18 @@
 import React from 'react';
 import AppCard from '../Components/AppCard';
 import useApps from '../Hooks/useApps';
+import { Link } from 'react-router';
 
 
 const Home = () => {
 
     const {apps}=useApps();
-    console.log(apps);
+    // console.log(apps);
     const homeData = apps.slice(0, 20);
     // console.log(apps);
     return (
         <div>
-            <div className='text-center'>
+            <div className='text-center mb-7 mt-2'>
                 <h2 className='text-xl font-bold'>Trending Apps</h2>
                 <p>Explore All Trending Apps on the Market developed by us</p>
             </div>
@@ -21,7 +22,7 @@ const Home = () => {
                 }
             </div>
             <div className='text-center'>
-                <button className='btn btn-accent'>See All</button>
+                <Link to='/apps' className='btn btn-accent'>See All</Link>
 
             </div>
         </div>

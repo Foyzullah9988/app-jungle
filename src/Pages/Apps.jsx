@@ -12,7 +12,7 @@ const Apps = () => {
     // console.log(searchApp);
     return (
         <div>
-            <div className='text-center'>
+            <div className='text-center mb-7 mt-2'>
                 <h2 className='text-xl font-bold'>Our All Applications</h2>
                 <p>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
@@ -35,7 +35,7 @@ const Apps = () => {
                 </label>
             </div>
 
-            <div className='m-4 grid grid-cols-1 sm:grid-cols-4 gap-4'>
+            <div className='m-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-11/12  gap-4'>
                 {
                     searchApp.map(app => <AllApps key={app.id} app={app} />)
                 }
