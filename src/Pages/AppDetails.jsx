@@ -13,10 +13,10 @@ const AppDetails = () => {
     const { pId } = useParams();
     // console.log( pId);
     const { apps, loading } = useApps();
-    console.log(loading);
+    // console.log(loading);
     // console.log(apps);
     const app = apps.find(app => app.id === Number(pId));
-    console.log(app);
+    // console.log(app);
 
     const [isInstalled, setIsInstalled] = useState(false);
 
