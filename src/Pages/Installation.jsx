@@ -1,11 +1,11 @@
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
 import InstalledApp from '../Components/InstalledApp';
 import { loadInstalledApps } from '../Utilis/LocalStorage';
 
 const Installation = () => {
-    const [installedApp, setInstalledApp] = useState(()=>loadInstalledApps());
+    const [installedApp, setInstalledApp] = useState(() => loadInstalledApps());
     const [sort, setSort] = useState('none')
-    
+
 
     const sortItem = (
         () => {
@@ -20,13 +20,17 @@ const Installation = () => {
         }
     )()
 
-
-
-   
-
     return (
         <div className='container mx-auto'>
-            <div className='flex justify-between items-center'>
+            <div className=' flex flex-col my-2 justify-center gap-2 items-center'>
+                <h2 className='text-3xl font-bold'>
+                    Your Installed Apps
+                </h2>
+                <p>
+                    Explore All Trending Apps on the Market developed by us
+                </p>
+            </div>
+            <div className='flex justify-between items-center mt-6'>
                 <h3><span className='text-xl font-bold'>Installed Apps </span>({installedApp.length}) Apps Found</h3>
                 <label className='w-full form-control max-w-xs'>
                     <select value={sort} onChange={e => setSort(e.target.value)} className='select select-bordered'>
@@ -36,12 +40,20 @@ const Installation = () => {
                     </select>
                 </label>
             </div>
-            <div className='space-y-4 my-3'>
-                {
-                    sortItem.map(app => <InstalledApp setInstalledApp={setInstalledApp} key={app.id} app={app} />)
-                }
-            </div>
-            
+            {
+                installedApp.length == 0 ? 
+                <div className='flex flex-col justify-center items-center h-64 text-xl font-semibold text-gray-500'>
+                    <p>You have no Installed app.</p>
+                    <p>Install some and enjoy.</p>
+                </div> :
+                    <div className='flex flex-col justify-center items-center gap-3 my-3'>
+                        {
+                            sortItem.map(app => <InstalledApp setInstalledApp={setInstalledApp} key={app.id} app={app} />)
+                        }
+                    </div>
+            }
+
+
         </div>
     );
 };

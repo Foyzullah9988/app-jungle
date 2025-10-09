@@ -15,7 +15,7 @@ const useApps = () => {
             .finally(() => {
                 setTimeout(()=>{
                     setLoading(false)
-                },2000)
+                },500)
             })
     }, [])
 

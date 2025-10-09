@@ -95,9 +95,9 @@ const AppDetails = () => {
                                     </div>
                                 </div>
                                 <div className='card-actions justify-start'>
-                                    <button onClick={handleInstall} className="btn btn-primary">
+                                    <button onClick={handleInstall} className="btn font-semibold text-white bg-gradient-to-tl from-green-400 to-green-800">
                                         {
-                                            isInstalled ? 'installed' : `Install (${size} MB)`
+                                            isInstalled ? 'Installed' : `Install (${size} MB)`
                                         }
                                     </button>
                                 </div>

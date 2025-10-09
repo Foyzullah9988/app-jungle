@@ -15,13 +15,13 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
     }
 
     return (
-        <div className="card card-side bg-base-100 shadow-sm ">
-            <figure className=''>
-                <img
+        <div className="flex justify-center items-center md:flex-row flex-col card-side bg-base-100 shadow-sm p-2 container mx-auto rounded-xl">
+            <figure className=' m-3'>
+                <img className='md:w-[200px] rounded-xl  object-cover'
                     src={image}
                     alt={`${title} app picture`} />
             </figure>
-            <div className="card-body">
+            <div className="card-body flex flex-col justify-center items-start">
                 <h2 className="card-title">{title} : {subtitle}</h2>
 
                 <div className='flex justify-start items-center gap-6'>
@@ -44,7 +44,7 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
                 </div>
             </div>
             <div className="card-actions  items-center justify-end">
-                <button onClick={()=>handleUninstall(app.id)} className="btn btn-primary">Uninstall</button>
+                <button onClick={()=>handleUninstall(app.id)} className="btn bg-gradient-to-tl to-red-800 from-red-400 text-semibold text-white">Uninstall</button>
             </div>
             
         </div>
