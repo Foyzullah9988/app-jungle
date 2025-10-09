@@ -1,10 +1,10 @@
 import React from 'react';
-import { ClipLoader } from "react-spinners";
+import { CircleLoader } from "react-spinners";
 const Spinner = () => {
     return (
         <div className='flex justify-center items-center h-[60vh]'>
 
-            <span className="loading loading-ring loading-xl"></span>
+            <CircleLoader size={200}   color='#bd90fc'/>
 
         </div>
     );

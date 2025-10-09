@@ -43,7 +43,7 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
                     </div>
                 </div>
             </div>
-            <div className="card-actions border items-center justify-end">
+            <div className="card-actions  items-center justify-end">
                 <button onClick={()=>handleUninstall(app.id)} className="btn btn-primary">Uninstall</button>
             </div>
             

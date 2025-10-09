@@ -2,22 +2,24 @@ import React, { useState } from 'react';
 import useApps from '../Hooks/useApps';
 import AllApps from '../Components/AllApps';
 import Spinner from '../Components/Spinner';
+import AppNotFound from '../Components/AppNotFound';
 
 const Apps = () => {
     const { apps, loading } = useApps();
 
     const [search, setSearch] = useState('');
     // console.log(search);
-    const term = search.trim().toLocaleLowerCase();
-    const searchApp = term ? apps.filter(app => app.title.toLocaleLowerCase().trim().includes(term)) : apps;
+    const term = search.split(' ').join('').toLocaleLowerCase();
+    const searchApp = term ? apps.filter(app => app.title.toLocaleLowerCase().split(' ').join('').includes(term)) : apps ;
     if (loading) return <Spinner />
     // console.log(searchApp);
     return (
-        <div>
+        <div className='container mx-auto'>
             <div className='text-center mb-7 mt-2'>
                 <h2 className='text-xl font-bold'>Our All Applications</h2>
                 <p>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
+
             <div className='flex justify-between items-center'>
                 <p className='text-xl'>All Apps <span className='text-sm'>({searchApp.length})Apps Found</span> </p>
                 <label className="input">
@@ -36,8 +38,10 @@ const Apps = () => {
                     <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" placeholder="Search" />
                 </label>
             </div>
-
-            <div className='m-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-11/12  gap-4'>
+            {
+                searchApp.length === 0 && <AppNotFound />
+            }
+            <div className='m-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full mx-auto  gap-4'>
                 {
                     searchApp.map(app => <AllApps key={app.id} app={app} />)
                 }

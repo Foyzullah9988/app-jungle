@@ -25,7 +25,7 @@ const Installation = () => {
    
 
     return (
-        <div>
+        <div className='container mx-auto'>
             <div className='flex justify-between items-center'>
                 <h3><span className='text-xl font-bold'>Installed Apps </span>({installedApp.length}) Apps Found</h3>
                 <label className='w-full form-control max-w-xs'>

@@ -8,6 +8,7 @@ import Root from '../Layout/Root';
 import ErrorPage from '../Pages/ErrorPage';
 import AppDetails from '../Pages/AppDetails';
 import Spinner from '../Components/Spinner';
+import PageNotFound from '../Components/PageNotFound';
 
 export const router = createBrowserRouter([
     {
@@ -29,10 +30,14 @@ export const router = createBrowserRouter([
                 element: <Installation />
             },
             {
-                path:'/apps/:id',
+                path:'/apps/:pId',
                 element:<AppDetails/>
             }
         ]
+    },
+    {
+        path:'/notFound',
+        Component: PageNotFound
     }
 
 ]);

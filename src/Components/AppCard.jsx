@@ -8,20 +8,20 @@ const AppCard = ({ app }) => {
     return (
         <Link to={`/apps/${id}`} className="card mx-auto  w-[340px] p-4 bg-gray-100 shadow-sm hover:scale-105 transition ease-in-out">
             <figure className='h-48 overflow-hidden'>
-                <img className='w-full object-cover'
+                <img className='w-full h-full object-cover'
                     src={image}
                     alt={`${title} app picture`} />
             </figure>
-            <h3>{title}</h3>
+            <h3 className='text-lg font-semibold'>{title}</h3>
             <div className="">
                 
-                <div className="flex py-2 justify-between items-center">
-                    <h2><span>
-                            <FontAwesomeIcon className='text-green-600' icon={faDownload} />
+                <div className="flex py-2 justify-between items-center font-medium">
+                    <h2 className='bg-green-100 text-green-600 p-0.5 rounded-[6px]'><span>
+                            <FontAwesomeIcon className='' icon={faDownload} />
                         </span>{downloads}</h2>
                 
-                    <h2><span>
-                            <FontAwesomeIcon className='text-yellow-400' icon={faStar} />
+                    <h2 className='bg-yellow-100 p-0.5 text-yellow-500 rounded-[6px]'><span>
+                            <FontAwesomeIcon className='' icon={faStar} />
                         </span>{ratingAvg}</h2>
                 </div>
             </div>
