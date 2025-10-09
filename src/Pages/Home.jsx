@@ -2,11 +2,13 @@ import React from 'react';
 import AppCard from '../Components/AppCard';
 import useApps from '../Hooks/useApps';
 import { Link } from 'react-router';
+import Spinner from '../Components/Spinner';
 
 
 const Home = () => {
 
-    const {apps}=useApps();
+    const { apps, loading } = useApps();
+    if (loading) return <Spinner />
     // console.log(apps);
     const homeData = apps.slice(0, 20);
     // console.log(apps);

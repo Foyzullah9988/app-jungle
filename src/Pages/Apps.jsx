@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import useApps from '../Hooks/useApps';
 import AllApps from '../Components/AllApps';
+import Spinner from '../Components/Spinner';
 
 const Apps = () => {
-    const { apps } = useApps();
-    const [search ,setSearch]=useState('');
+    const { apps, loading } = useApps();
+
+    const [search, setSearch] = useState('');
     // console.log(search);
     const term = search.trim().toLocaleLowerCase();
-    const searchApp = term ? apps.filter(app=>app.title.toLocaleLowerCase().trim().includes(term)):apps;
-    
+    const searchApp = term ? apps.filter(app => app.title.toLocaleLowerCase().trim().includes(term)) : apps;
+    if (loading) return <Spinner />
     // console.log(searchApp);
     return (
         <div>
@@ -31,7 +33,7 @@ const Apps = () => {
                             <path d="m21 21-4.3-4.3"></path>
                         </g>
                     </svg>
-                    <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search"  placeholder="Search" />
+                    <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" placeholder="Search" />
                 </label>
             </div>
 

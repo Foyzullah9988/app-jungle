@@ -5,13 +5,18 @@ const useApps = () => {
     const [apps, setApps] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
+    
 
     useEffect(() => {
         setLoading(true)
         axios('../App.json')
             .then(res => setApps(res.data))
             .catch(err => setError(err))
-            .finally(() => setLoading(false))
+            .finally(() => {
+                setTimeout(()=>{
+                    setLoading(false)
+                },2000)
+            })
     }, [])
 
     return { apps, loading, error }

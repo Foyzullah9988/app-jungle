@@ -6,11 +6,13 @@ import useApps from '../Hooks/useApps';
 import { faDownload, faStar, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import {  Flip, toast, Zoom } from 'react-toastify';
 import { Bar, BarChart, CartesianGrid, Legend,  ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import Spinner from '../Components/Spinner';
 
 const AppDetails = () => {
     const { id } = useParams();
     // console.log(typeof id);
     const { apps, loading } = useApps();
+    console.log(loading);
     // console.log(apps);
     const app = apps.find(app => app.id === Number(id));
     // console.log(app);
@@ -18,6 +20,7 @@ const AppDetails = () => {
     const [isInstalled, setIsInstalled] = useState(false);
 
     useEffect(() => {
+
         if (!app) return;
         const existAppList = JSON.parse(localStorage.getItem('installedApps')) || [];
         const dup = existAppList.some(ap => ap.id === app.id);
@@ -27,7 +30,7 @@ const AppDetails = () => {
 
     }, [app])
 
-    if (loading) return <p>loading...</p>
+    if (loading) return<Spinner/>
 
     const { companyName, description, downloads, image, ratingAvg,
         ratings,
@@ -60,7 +63,7 @@ const AppDetails = () => {
 
             <div className="card card-side bg-base-100 shadow-sm">
                 <figure>
-                    <img className='w-full object-cover'
+                    <img className='w-[200px] rounded-xl h-[200px] object-cover'
                         src={image}
                         alt={`${title} app picture`} />
                 </figure>
