@@ -42,7 +42,7 @@ const AppDetails = () => {
             const isDuplicate = existAppList.some(ap => ap.id === app.id)
             if (isDuplicate) {
                 // setIsInstalled(true)
-                return toast('App already installed', { transition: Flip, position: "top-center", theme: "colored", });
+                return toast('App already installed', { transition: Flip,autoClose:50, position: "top-center", theme: "colored", });
             }
             updateAppList = [...existAppList, app]
         } else {
@@ -61,9 +61,9 @@ const AppDetails = () => {
                 id != pId ? <AppNotFound /> :
 
                     <div className='container mx-auto'>
-                        <div className="card flex flex-col md:flex-row card-side bg-base-100 shadow-sm">
-                            <figure>
-                                <img className='w-[200px] rounded-xl h-[200px] object-cover'
+                        <div className="card flex flex-col justify-center items-center p-2 md:flex-row card-side bg-base-100 shadow-sm">
+                            <figure className='w-40 h-40 rounded-xl'>
+                                <img className='  object-cover'
                                     src={image}
                                     alt={`${title} app picture`} />
                             </figure>
@@ -71,13 +71,14 @@ const AppDetails = () => {
                                 <h2 className="card-title">{title}:{subtitle}</h2>
                                 <p>Developed by <span className='text-fuchsia-600 font-semibold'>{companyName}
                                 </span></p>
+                                <hr className='text-green-500'/>
                                 <div className='flex justify-start items-center gap-6'>
                                     <div className='flex flex-col justify-center my-1'>
                                         <span>
                                             <FontAwesomeIcon className='text-green-600' icon={faDownload} />
                                         </span>
                                         <span>Downloads</span>
-                                        <span className='text-xl font-bold'>{downloads}</span>
+                                        <span className='text-xl font-bold'>{downloads}M</span>
                                     </div>
                                     <div className='flex flex-col justify-center my-1'>
                                         <span>
@@ -95,7 +96,7 @@ const AppDetails = () => {
                                     </div>
                                 </div>
                                 <div className='card-actions justify-start'>
-                                    <button onClick={handleInstall} className="btn font-semibold text-white bg-gradient-to-tl from-green-400 to-green-800">
+                                    <button onClick={handleInstall} className={`btn font-semibold  ${isInstalled ?'bg-blue-200 text-blue-700':'bg-gradient-to-tl from-green-400 to-green-800 text-white'} `}>
                                         {
                                             isInstalled ? 'Installed' : `Install (${size} MB)`
                                         }
@@ -103,8 +104,8 @@ const AppDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <h3>Rating</h3>
+                        <div className='mt-8'>
+                            <h3 className='font-semibold my-2'>Rating</h3>
                             <div className='h-80'>
 
                                 <ResponsiveContainer width="100%" height="100%">

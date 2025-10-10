@@ -18,7 +18,7 @@ const AppCard = ({ app }) => {
                 <div className="flex py-2 justify-between items-center font-medium">
                     <h2 className='bg-green-100 text-green-600 p-0.5 rounded-[6px]'><span>
                             <FontAwesomeIcon className='' icon={faDownload} />
-                        </span>{downloads}</h2>
+                        </span>{downloads}M</h2>
                 
                     <h2 className='bg-yellow-100 p-0.5 text-yellow-500 rounded-[6px]'><span>
                             <FontAwesomeIcon className='' icon={faStar} />

@@ -4,6 +4,8 @@ import useApps from '../Hooks/useApps';
 import { Link } from 'react-router';
 import Spinner from '../Components/Spinner';
 import Hero from '../Components/Hero';
+import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Home = () => {
@@ -17,7 +19,10 @@ const Home = () => {
         <div>
             <Hero/>
             <div className='text-center my-7'>
-                <h2 className='text-3xl font-bold'>Trending Apps</h2>
+                                            
+                <h2 className='text-3xl font-bold'>Trending Apps 
+                    <FontAwesomeIcon className='text-green-800' icon={faArrowTrendUp} />
+                </h2>
                 <p>Explore All Trending Apps on the Market developed by us</p>
             </div>
             <div className='m-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full container mx-auto  gap-4'>

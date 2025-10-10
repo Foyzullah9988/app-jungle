@@ -10,7 +10,7 @@ const Apps = () => {
     const [search, setSearch] = useState('');
     // console.log(search);
     const term = search.split(' ').join('').toLocaleLowerCase();
-    const searchApp = term ? apps.filter(app => app.title.toLocaleLowerCase().split(' ').join('').includes(term)) : apps ;
+    const searchApp = term ? apps.filter(app => app.title.toLocaleLowerCase().split(' ').join('').includes(term)) : apps;
     if (loading) return <Spinner />
     // console.log(searchApp);
     return (
@@ -35,7 +35,8 @@ const Apps = () => {
                             <path d="m21 21-4.3-4.3"></path>
                         </g>
                     </svg>
-                    <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" placeholder="Search" />
+                    <input value={search} onChange={(e) =>
+                        setSearch(e.target.value)} type="search" placeholder="Search" />
                 </label>
             </div>
             {

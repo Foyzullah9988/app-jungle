@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import { Link } from 'react-router';
 
 const ErrorPage = () => {
     return (
@@ -13,7 +14,7 @@ const ErrorPage = () => {
                 <div className='space-y-2 mt-2 flex flex-col justify-center items-center'>
                     <h2 className='text-xl font-bold'>Oops, page not found!</h2>
                 <p>The page you are looking for is not available.</p>
-                <button className='btn bg-gradient-to-tl to-[#885bf2] from-[#a36bf0]'>Go Back!</button>
+                <Link to='/' className='btn bg-gradient-to-tl to-[#885bf2] from-[#a36bf0]'>Go Back!</Link>
                 </div>
             </div>
             <Footer />

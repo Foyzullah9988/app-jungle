@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const AppNotFound = () => {
     return (
@@ -13,7 +14,7 @@ const AppNotFound = () => {
                 <p>The App you are requesting is not found on our system.  please try another apps</p>
                 </div>
             </div>
-          
+          <Link to='/' className='btn bg-amber-200 my-8'>Back to Home</Link>
         </div>
     );
 };

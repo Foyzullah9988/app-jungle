@@ -15,6 +15,8 @@ const Installation = () => {
         () => {
             if (sort === 'size') {
                 return [...installedApp].sort((a, b) => b.size - a.size)
+            }else if (sort === 'downloads') {
+                return [...installedApp].sort((a, b) => b.downloads - a.downloads)
             }
             else if (sort === 'rating') {
                 return [...installedApp].sort((a, b) => b.ratingAvg - a.ratingAvg)
@@ -40,6 +42,7 @@ const Installation = () => {
                     <select value={sort} onChange={e => setSort(e.target.value)} className='select select-bordered'>
                         <option value='none'>Sort by time</option>
                         <option value='size'>Sort by size</option>
+                        <option value='downloads'>Sort by downloads</option>
                         <option value='rating'>Sort by rating</option>
                     </select>
                 </label>

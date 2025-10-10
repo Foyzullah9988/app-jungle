@@ -15,9 +15,9 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
     }
 
     return (
-        <div className="flex justify-center items-center md:flex-row flex-col card-side bg-base-100 shadow-sm p-2 container mx-auto rounded-xl">
-            <figure className=' m-3'>
-                <img className='md:w-[200px] rounded-xl  object-cover'
+        <div className="flex justify-center  items-center md:flex-row flex-col card-side bg-base-100 shadow-sm p-2 container mx-auto rounded-xl">
+            <figure className='w-20 h-20 my-3 '>
+                <img className=' w-full h-full rounded-xl object-cover'
                     src={image}
                     alt={`${title} app picture`} />
             </figure>
@@ -29,7 +29,7 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
                         <span>
                             <FontAwesomeIcon className='text-green-600' icon={faDownload} />
                         </span>
-                        <span className=' text-green-600'>{downloads}</span>
+                        <span className=' text-green-600'>{downloads}M</span>
                     </div>
                     <div className='flex  justify-center my-1'>
                         <span>
