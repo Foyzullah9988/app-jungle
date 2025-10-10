@@ -34,3 +34,4 @@ You can find the app in installation.
 
 # responsive
 # update ui instantly
+# toast when click on install or uninstall button
