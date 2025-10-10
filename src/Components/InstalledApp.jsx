@@ -11,7 +11,7 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
         let updateAppList =existAppList.filter(app=>app.id !== id)
         setInstalledApp(updateAppList)
         localStorage.setItem('installedApps', JSON.stringify(updateAppList));
-        toast('App Uninstalled',{transition: Slide,position: "top-right"})
+        toast(`${title} Uninstalled`,{transition: Slide,position: "top-right"})
     }
 
     return (

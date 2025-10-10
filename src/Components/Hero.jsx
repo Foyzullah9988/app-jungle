@@ -9,12 +9,12 @@ const Hero = () => {
                 <h1 className='text-4xl font-bold text-center'>We Build <br /> <span className='text-fuchsia-700'>Productive</span>  Apps</h1>
                 <p className='w-8/12 text-center'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className='space-x-3'>
-                    <button className='btn'>
+                    <a href='https://play.google.com/store/games?hl=en' className='btn'>
                         <FontAwesomeIcon className='text-blue-400' icon={faPlay} />
-                        Google Play</button>
-                    <button className='btn'>
+                        Google Play</a>
+                    <a href='https://www.apple.com/app-store/' className='btn'>
                         <FontAwesomeIcon className='text-green-400' icon={faAppleAlt} />
-                        App Store</button>
+                        App Store</a>
                 </div>
             </div>
             <div className='flex  justify-center items-center'>

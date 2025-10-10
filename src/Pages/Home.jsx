@@ -11,7 +11,7 @@ const Home = () => {
     const { apps, loading } = useApps();
     if (loading) return <Spinner />
     // console.log(apps);
-    const homeData = apps.slice(0, 12);
+    const homeData = apps.slice(0, 8);
     // console.log(apps);
     return (
         <div>

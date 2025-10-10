@@ -52,7 +52,7 @@ const AppDetails = () => {
 
         localStorage.setItem('installedApps', JSON.stringify(updateAppList));
         setIsInstalled(true);
-        toast('App installed', { transition: Zoom, position: "top-left" })
+        toast(`${title} installed`, { transition: Zoom, position: "top-left" })
     }
 
     return (
@@ -60,7 +60,7 @@ const AppDetails = () => {
             {
                 id != pId ? <AppNotFound /> :
 
-                    <div>
+                    <div className='container mx-auto'>
                         <div className="card flex flex-col md:flex-row card-side bg-base-100 shadow-sm">
                             <figure>
                                 <img className='w-[200px] rounded-xl h-[200px] object-cover'

@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import InstalledApp from '../Components/InstalledApp';
 import { loadInstalledApps } from '../Utilis/LocalStorage';
+import useApps from '../Hooks/useApps';
+import Spinner from '../Components/Spinner';
 
 const Installation = () => {
+    const {loading} = useApps() ;
     const [installedApp, setInstalledApp] = useState(() => loadInstalledApps());
     const [sort, setSort] = useState('none')
+    if(loading)return <Spinner/>
 
 
     const sortItem = (
@@ -43,7 +47,7 @@ const Installation = () => {
             {
                 installedApp.length == 0 ? 
                 <div className='flex flex-col justify-center items-center h-64 text-xl font-semibold text-gray-500'>
-                    <p>You have no Installed app.</p>
+                    <p>You have no app Installed.</p>
                     <p>Install some and enjoy.</p>
                 </div> :
                     <div className='flex flex-col justify-center items-center gap-3 my-3'>
