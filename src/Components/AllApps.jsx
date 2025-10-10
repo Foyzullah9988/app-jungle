@@ -4,7 +4,7 @@ import { faDownload, faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AllApps = ({ app }) => {
-    const { id, image, title, downloads, ratingAvg } = app;
+    const { id, image, title,subtitle, downloads, ratingAvg } = app;
 
     return (
         <Link to={`/apps/${id}`} className="card   mx-auto p-4 w-full bg-gray-100 shadow-sm hover:scale-105 transition ease-in-out">
@@ -14,6 +14,8 @@ const AllApps = ({ app }) => {
                     alt={`${title} app picture`} />
             </figure>
             <h3 className='text-lg font-semibold'>{title}</h3>
+            <p>{subtitle}</p>
+
             <div className="py-2">
 
                 <div className="flex justify-between items-center">

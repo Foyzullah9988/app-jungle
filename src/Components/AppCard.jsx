@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const AppCard = ({ app }) => {
-    const {id,image,title,downloads,ratingAvg}=app;
+    const {id,image,title,subtitle,downloads,ratingAvg}=app;
     return (
         <Link to={`/apps/${id}`} className="card mx-auto  w-[340px] p-4 bg-gray-100 shadow-sm hover:scale-105 transition ease-in-out">
             <figure className='h-48 overflow-hidden'>
@@ -13,6 +13,7 @@ const AppCard = ({ app }) => {
                     alt={`${title} app picture`} />
             </figure>
             <h3 className='text-lg font-semibold'>{title}</h3>
+            <p>{subtitle}</p>
             <div className="">
                 
                 <div className="flex py-2 justify-between items-center font-medium">

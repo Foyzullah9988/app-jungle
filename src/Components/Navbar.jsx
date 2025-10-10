@@ -1,3 +1,4 @@
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBorderAll, faHome, faListCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -54,7 +55,9 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a href='https://github.com/Foyzullah9988' className="btn text-white bg-gradient-to-tl to-[#601ff7] via-[#45d0e5]  from-[#53f98d]">
-                        <img className='w-8 ' src="/src/assets/github-brands-solid-full.svg" alt="" /> Contribute</a>
+                    <FontAwesomeIcon icon={faGithub}/>
+                        
+                        Contribute</a>
                 </div>
             </div>
         </div>
