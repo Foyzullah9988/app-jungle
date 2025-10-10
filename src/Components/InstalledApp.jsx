@@ -16,7 +16,7 @@ const InstalledApp = ({ app ,setInstalledApp}) => {
 
     return (
         <div className="flex justify-center  items-center md:flex-row flex-col card-side bg-base-100 shadow-sm p-2 container mx-auto rounded-xl">
-            <figure className='w-20 h-20 my-3 '>
+            <figure className='w-full h-40 md:w-20 md:h-20 md:my-3 '>
                 <img className=' w-full h-full rounded-xl object-cover'
                     src={image}
                     alt={`${title} app picture`} />

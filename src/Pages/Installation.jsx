@@ -3,6 +3,8 @@ import InstalledApp from '../Components/InstalledApp';
 import { loadInstalledApps } from '../Utilis/LocalStorage';
 import useApps from '../Hooks/useApps';
 import Spinner from '../Components/Spinner';
+import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Installation = () => {
     const {loading} = useApps() ;
@@ -13,14 +15,11 @@ const Installation = () => {
 
     const sortItem = (
         () => {
-            if (sort === 'size') {
-                return [...installedApp].sort((a, b) => b.size - a.size)
-            }else if (sort === 'downloads') {
+            if (sort === 'download') {
                 return [...installedApp].sort((a, b) => b.downloads - a.downloads)
-            }
-            else if (sort === 'rating') {
-                return [...installedApp].sort((a, b) => b.ratingAvg - a.ratingAvg)
-            } else {
+            }else if (sort === 'downloads') {
+                return [...installedApp].sort((a, b) => a.downloads - b.downloads)
+            }else {
                 return installedApp
             }
         }
@@ -41,9 +40,8 @@ const Installation = () => {
                 <label className='w-full form-control max-w-xs'>
                     <select value={sort} onChange={e => setSort(e.target.value)} className='select select-bordered'>
                         <option value='none'>Sort by time</option>
-                        <option value='size'>Sort by size</option>
-                        <option value='downloads'>Sort by downloads</option>
-                        <option value='rating'>Sort by rating</option>
+                        <option value='download'>Sort by download <FontAwesomeIcon icon={faArrowDown} /></option>
+                        <option value='downloads'>Sort by download <FontAwesomeIcon icon={faArrowUp} /></option>
                     </select>
                 </label>
             </div>

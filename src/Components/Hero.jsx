@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='flex  justify-center items-center'>
-                <img src="/src/assets/hero.png" alt="" />
+                <img src="/hero.png" alt="" />
             </div>
             <div className=" bg-gradient-to-tl to-[#6728f8] from-[#9F62F2] w-full">
                 <div className='container mx-auto  space-y-5 p-8 text-white'>

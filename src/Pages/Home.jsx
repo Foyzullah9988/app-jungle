@@ -11,13 +11,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Home = () => {
 
     const { apps, loading } = useApps();
-    if (loading) return <Spinner />
+    // if (loading) return <Spinner />
     // console.log(apps);
     const homeData = apps.slice(0, 8);
     // console.log(apps);
     return (
         <div>
-            <Hero/>
+            {
+            loading ? <Spinner/>:
+            <div>
+                <Hero/>
             <div className='text-center my-7'>
                                             
                 <h2 className='text-3xl font-bold'>Trending Apps 
@@ -34,6 +37,9 @@ const Home = () => {
                 <Link to='/apps' className='btn btn-accent my-8'>See All</Link>
 
             </div>
+            </div>
+            }
+            
         </div>
     );
 };

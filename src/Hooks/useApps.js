@@ -12,11 +12,7 @@ const useApps = () => {
         axios('../App.json')
             .then(res => setApps(res.data))
             .catch(err => setError(err))
-            .finally(() => {
-                setTimeout(()=>{
-                    setLoading(false)
-                },200)
-            })
+            .finally(() =>setLoading(false))
     }, [])
 
     return { apps, loading, error }

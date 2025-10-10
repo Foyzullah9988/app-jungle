@@ -38,7 +38,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to={'/'} className="btn btn-ghost text-2xl font-bold">
-                        <img className='w-8' src="/src/assets/logo.png" alt="" />App     <h2 className='text-fuchsia-600'>Jungle</h2></Link>
+                        <img className='w-8' src="/logo.png" alt="" />App     <h2 className='text-fuchsia-600'>Jungle</h2></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
